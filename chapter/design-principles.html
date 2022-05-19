@@ -1,8 +1,7 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
-    <html lang="en">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design-priciples</title>
@@ -16,16 +15,20 @@
     <link rel="stylesheet" href="../styles/base.css">
     <link rel="stylesheet" href="../styles/components.css">
 
+
     <body>
         <div class="navigation">
 
             <a href="#design-principles">Design Principles</a>
+            <a href="#design-methodes">Design Methodes</a>
             <a href="#kommentar">Kommentar</a>
+
 
         </div>
         <main>
-            <h1>Theory</h1>
+
             <header>
+                <h1>Theory</h1>
                 <h2 id="design-principles">Design Principles</h2>
                 <p> The challenge is to develop an application that tries to increase the user’s participation in team sports through online communities. Several factors play into the success of this concept. It is not possible to achieve this goal if the
                     application is not properly designed. To achieve this, design principles of several disciplines are applied to achieve a user-centric solution.</p>
@@ -42,6 +45,8 @@
                 <footer><cite>Don Norman</cite></footer>
             </blockquote>
 
+            <p>User experience captures everything a user experiences while using a given product, from the visuals, the haptics, and the audio to how the product feels. User experience of a product comprises three primary factors: its look, feel, and usability
+                <cite>(IXDF - UX DESIGN, N.D.)</cite></p>
 
             <figure>
                 <img src="../_data/images/user-experience.png" alt="Primary Factors Of User Eexperienceown Illustration Based On IXDF - USABILITY, 2020">
@@ -49,8 +54,7 @@
                 </figcaption>
             </figure>
 
-            <p>User experience captures everything a user experiences while using a given product, from the visuals, the haptics, and the audio to how the product feels. User experience of a product comprises three primary factors: its look, feel, and usability
-                <cite>(IXDF - UX DESIGN, N.D.)</cite></p>
+
 
             <p>User Experience Design requires a solid understanding of the psychology and behavior of the user. Understanding how users perceive a product allows user experience designers to iterate their concepts and better achieve the user’s goals. According
                 to Marc Hassenzahl and Sarah Diefenbach’s paper <i>Well-being</i>, <i>Need Fulfillment</i>, and
@@ -133,7 +137,7 @@
 
         </main>
 
-        <!-- <artilce id="design-methodes">
+        <article id="design-methodes">
 
             <header>
                 <h2>Design Methodes</h2>
@@ -261,41 +265,40 @@
             <p>For the concept of this thesis, design thinking will be applied to find a creative solution on how to support the user’s participation in team sports. Based on that solution, HCD will guide the design process to ensure high-quality user experience
                 and usability. Furthermore, the principles of community-centered design will be used to emphasize sociability throughout the concept.</p>
 
-        </artilce>
-    -->
+        </article>
+
         <footer id="kommentar">
             <form>
-                <fieldset>
-                    <legend>Persönliche Daten</legend>
-                    <label for="vorname">Vorname</label>
-                    <input type="text" id="vorname" name="vorname" placeholder="Vorname">
 
-                    <label for="nachname">Nachname</label>
-                    <input type="text" id="nachname" name="nachname" placeholder="Nachname">
 
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="example.stuff@gmail.com">
+                <label for="vorname">Vorname:</label>
+                <input type="text" id="vorname" name="vorname" placeholder="Vorname">
 
-                    <label for="PB">Profilbild</label>
-                    <input type="file" id="PB" name="PB">
-                </fieldset>
-                <label for="kommentartext">Ihr Kommentar</label>
+                <label for="nachname">Nachname:</label>
+                <input type="text" id="nachname" name="nachname" placeholder="Nachname">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example.stuff@gmail.com">
+
+                <label for="PB">Profilbild</label>
+                <input type="file" id="PB" name="PB">
+
+                <label for="kommentartext">Ihr Kommentar:</label>
                 <textarea id="kommentartext" name="kommentar"></textarea>
-                <fieldset>
-                    <label>Soll der Autorenname in einer späteren Anzeige anonymisiert werden?</label>
-                    <input type="radio" name="anon" value="Ja">ja
-                    <input type="radio" name="anon" value="Nein">nein
-                </fieldset>
+
+                <label>Soll der Autorenname in einer späteren Anzeige anonymisiert werden?</label>
+                <input type="radio" name="anon" value="Ja">ja
+                <input type="radio" name="anon" value="Nein">nein
 
                 <label for="Datenschutz">Haben sie die Datenschutzerklärung gelesen?</label>
                 <input type="checkbox" name="Datenschutz" id="Datenschutz">Ja,ich habe die Datenschutzerklärung gelesen.
-                <fieldset>
-                    <input type="submit" value="Kommentar absenden">
-                    <input type="reset" value="Kommentar zurückesetzen">
-                </fieldset>
+
+                <input type="submit" value="Kommentar absenden">
+                <input type="reset" value="Kommentar zurückesetzen">
+
             </form>
         </footer>
-        <strong><a href="/index.html">Zurück zum Index</a> </strong>
+        <button type="button" onclick="window.location.href = '/index.html';">Zurück zum Index</button>
     </body>
 
-    </html>
+</html>
