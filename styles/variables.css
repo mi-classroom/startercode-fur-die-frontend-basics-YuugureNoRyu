@@ -10,8 +10,8 @@
     /*Font Weight */
     --wichtig: bold;
     --fw-normal: 300;
-    --fw-megawichtig: 500;
-    --fw-wichtig: 400;
+    --fw-megawichtig: 1000;
+    --fw-wichtig: 700;
     /*Farben*/
     --light: #ccc;
     --lighter: #fff;
@@ -20,11 +20,13 @@
     --text-color: var(--darker);
     --headline-color: var(--dark);
     --accent: darkgoldenrod;
-    --accenttext: goldenrod;
+    --accenttext: rgb(218, 165, 32);
+    --accentalpha: rgba(218, 165, 32, 0.5);
     --background: #ddd;
     --backnth: #fff;
     /*Schriftarten*/
     --font-normal: 'IBM Plex Sans', sans-serif;
+    --font-serif: 'Times New Roman', Times, serif;
     /*Linienhöhen*/
     --lh-normal: 130%;
     --lh-tight: 110%;
